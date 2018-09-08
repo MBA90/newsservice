@@ -17,6 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 First you need to check what java version installed on your machine, in your terminal type :
 ```
 java -version
+```
 
 if output contains 'jre' keyword then you need to install java jdk version, you can follow this site
 for java installation [How to install java on mac](https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html).
@@ -58,13 +59,15 @@ source /etc/profile.d/maven.sh
 
 check your installation by typing 'mvn -version', you should see output similar to the below  :
 
+```
+mvn -version
 Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T22:33:14+04:00)
 Maven home: /usr/local/maven
 Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.13.6", arch: "x86_64", family: "mac"
 Muhammads-MacBook-Pro:~ MBA$ 
-
+```
 
 ## Project structure
 
