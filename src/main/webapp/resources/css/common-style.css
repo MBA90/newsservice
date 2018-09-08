@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+} 
+
+#body {
+	/* The image used */
+    background-image: url("#{resource['img/bgsite.jpg']}");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 16px;
+}
+
+#content {
+	width: 100%;
+	height: 580px; 
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+ 
+#masterRepeat { 
+	width: 100%;
+	overflow: hidden;
+}
+
+#masterRepeatInner {
+	
+	width: 100%;
+	
+}
+
+.card { 
+	background-color: whitesmoke;
+	margin-bottom: 5px;
+	padding: 30px;
+}

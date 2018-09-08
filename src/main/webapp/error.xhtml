@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<title>Error Page</title>
+</h:head>
+<h:body>
+	<ui:composition template="/template/common/commonLayout.xhtml">
+		<ui:define name="content">
+			<h:form class="form-inline">
+				<div id="searchDiv" style="height: 300px;"
+					class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<div class="row" style="margin-top: 10px;">
+						<div
+							class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<div class="alert alert-danger" style="width: 100%">
+								<strong>Error</strong> Please try again later ...
+							</div>
+						</div>
+					</div>
+				</div>
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>
+
