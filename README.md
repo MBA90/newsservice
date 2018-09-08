@@ -90,7 +90,17 @@ Sometimes when you may need to compile a certain project to a different version 
 ## Before running the application 
 make sure to install apache tomcat server, in this solution is used apache tomcat server 9
 
-## Running Application 
+## Clone Project from GitHub 
+
+- instructions for setting the site up in a local sandbox 
+
+```
+git clone https://github.com/MBA90/newsservice.git
+```
+
+## Running The Application 
 1- navigate to the root of application 'newsservice' and click run on server then select the server you have and click finish
 
 2- the application will directly navigate to welcome page Mostpopular.xhtml where you can search for the most popular news using the defined search criteria section and period 
+
+
