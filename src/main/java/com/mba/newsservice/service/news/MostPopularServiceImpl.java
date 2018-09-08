@@ -45,7 +45,7 @@ public class MostPopularServiceImpl implements MostPopularService {
 
 		try {
 			// Check blank or null
-			if (!Common.isBlankOrNull(section) || Common.isBlankOrNull(period)) {
+			if (Common.isBlankOrNull(section) || Common.isBlankOrNull(period)) {
 				throw new Exception("Error: Section & period both are mandatory");
 			}
 			
