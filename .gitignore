@@ -1,2 +1,7 @@
 /target
-.DS_Store.DS_Store
+.DS_Store
+.settings
+.metadata
+.settings/
+.project
+.classpath
